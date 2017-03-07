@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-lenght island" method="post" novalidate>
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+      <h3 class="push-0">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label"> There are items that require your attention</span>
+      </h3>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a name</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="email">Email</label>
+      <input type="email" id="email" required aria-describedby="email-error">
+      <p class="error-message milli island-1-4 push-0" id="email-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a properly formatted email address</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="url">Website <em class="flag-optional milli normal">(optional)</em></label>
+      <input type="url" id="url" required>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree">I'm totally awesome!</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please agree that you're totally awesome</span>
+      </p>
+    </div>
+
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Send</button>
+    </div>
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>
