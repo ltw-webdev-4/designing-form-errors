@@ -8,7 +8,7 @@
 
 This is the starter code for a step-by-step lesson. Each step is described in detail here:
 
-### [**Follow the Designing form errors step-by-step lesson ➔**](https://learn-the-web.algonquindesign.ca/courses/web-dev-4/designing-form-errors/)
+### [**Follow the Designing form errors step-by-step lesson ➔**](https://learntheweb.courses/courses/web-dev-4/designing-form-errors/)
 
 ---
 
